@@ -327,6 +327,10 @@ footer .logo {
 	width: 100%;
 }
 
+.about .wrapper p {
+	font-size: 1.5em;
+}
+
 /***** participants page ******/
 	.participantsContent{
 		padding: 40px 10%;
@@ -357,6 +361,21 @@ footer .logo {
 	.participantsContent .prefix {
 		margin-bottom: 50px;
 		margin-top: 50px;
+		max-width: 50%;
+	}
+	
+	.participantsContent .study {
+		background: #90ddf4;
+		height: 150px;
+		text-align: center;
+		width: 140%;
+		margin-left: -20%;
+	}
+
+	.study h3 {
+		line-height: 150px;
+		font-size: 2em;
+		color: #fff;
 	}
 
 	.participantsContent h3 {
@@ -657,7 +676,6 @@ footer .logo {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-	margin: -1px;
 	display: flex;
 	z-index: 1;
 }
@@ -671,7 +689,7 @@ footer .logo {
 }
 
 .aboutHero1  {
-	background-image: url("../images/beachFather.jpg");
+	background-image: url("../images/baby.jpg");
 	min-height: 400px;
 	background-position: -400px 0;
 }
@@ -780,8 +798,8 @@ footer .logo {
 }
 
 .survey .wrapper {
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 90px;
+	padding-bottom: 100px;
 }
 
 .survey .wrapper p {
@@ -895,7 +913,7 @@ MEDIA QUERIES
 	}
 
 	.about .wrapper {
-		max-width: 500px;
+		max-width: 650px;
 		margin: auto;
 	}
 
@@ -963,11 +981,12 @@ MEDIA QUERIES
 	.main-footer .logo {
 		position: static;
 	}
-	
 }
 
 @media only screen and (min-width: 1000px){
-	
+	.aboutHero1 {
+		background-position: 0 -200px;
+	}
 }
 
 @media only screen and (min-width: 1400px){
