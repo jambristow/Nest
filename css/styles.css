@@ -332,8 +332,12 @@ footer .logo {
 }
 
 /***** participants page ******/
+	.participantsBar {
+		margin-top: 25px;
+	}
+
 	.participantsContent{
-		padding: 40px 10%;
+		padding: 0px 10%;
 	}
 
 	.participantsContent i {
@@ -359,13 +363,32 @@ footer .logo {
 	}
 
 	.participantsContent .prefix {
-		margin-bottom: 50px;
 		margin-top: 50px;
-		max-width: 50%;
+		max-width: 70%;
+	}
+
+	.participantsContent2 p, .participantsContent3 p, .participantsContent3 h4 {
+		color: #555;
 	}
 	
-	.participantsContent .study {
+	.participantsContent2 .study {
 		background: #90ddf4;
+	}
+
+	.participantsContent2 {
+		background: #c8eefa;
+	}
+
+	.participantsContent3 .study {
+		background: #b6db8a;
+	}
+
+	.participantsContent3 {
+		background: #def2c5;
+	}
+
+	.participantsContent .study {
+		padding: 40px 0;
 		height: 150px;
 		text-align: center;
 		width: 140%;
@@ -373,9 +396,14 @@ footer .logo {
 	}
 
 	.study h3 {
-		line-height: 150px;
+		/*line-height: 50px;*/
 		font-size: 2em;
 		color: #fff;
+		margin: 0;
+	}
+
+	.study img {
+		height: 100px;
 	}
 
 	.participantsContent h3 {
@@ -401,11 +429,13 @@ footer .logo {
 		margin-bottom: 40px;
 	}
 
-	.participantsContent .contact {
-
+	.participantsContent .contact p {
+		margin-bottom: 0;
 	}
 
-
+	.participantsContent .contact {
+		padding-bottom: 20px;
+	}
 
 
 /***** team page ******/
@@ -680,12 +710,9 @@ footer .logo {
 	z-index: 1;
 }
 
-.hero1  {
-	min-height: 600px;
-}
 
 .indexHero1 {
-	background-image: url("../images/dad.jpg");
+	background-image: url("../images/indexDad.jpg");
 }
 
 .aboutHero1  {
@@ -705,7 +732,7 @@ footer .logo {
 }
 
 .resourcesHero1 {
-	background-image: url("../images/handFoot.jpg");
+	background-image: url("../images/dad.jpg");
 	min-height: 400px;
 }
 
@@ -849,12 +876,6 @@ MEDIA QUERIES
 }
 
 @media only screen and (min-width: 500px){
-
-	.hero1  {
-		height: 600px;
-		/*line-height: 600px;*/
-	}
-	
 	.aboutHero1 {
 		height: inherit;
 		background-position: -200px 0;
