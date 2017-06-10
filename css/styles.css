@@ -535,6 +535,30 @@ footer .logo {
 	transform: scaleX(-1);
 }
 
+/***** resources page ******/
+
+.resourcesWrapper {
+	text-align: left;
+}
+
+.resourcesWrapper li {
+	font-size: 1.1em;
+	padding-bottom: 10px;
+}
+
+.resourcesWrapper h2, .resourcesWrapper li {
+	color: white;
+}
+
+.resourcesLink {
+	color: #499eb7;
+	transition: all 0.3s ease-in;
+}
+
+.resourcesLink:hover {
+	color: #90DDF4;
+}
+
 .arrowRight {
 	float: right;
 }
