@@ -154,6 +154,10 @@ li a:hover {
 	pointer-events: none;
 }
 
+.textAlignLeft {
+	text-align: left;
+}
+
 /***************************
  SPECIFIC 
  **************************/
@@ -334,6 +338,9 @@ footer .logo {
 /***** participants page ******/
 	.participantsBar {
 		margin-top: 25px;
+		max-width: 900px;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 	.participantsContent{
@@ -367,6 +374,14 @@ footer .logo {
 		max-width: 70%;
 	}
 
+	.participantsContent1 {
+		margin-top: 30px;
+		margin-bottom: 50px;
+    	margin-left: auto;
+    	margin-right: auto;
+		max-width: 800px;
+	}
+
 	.participantsContent2 p, .participantsContent3 p, .participantsContent3 h4 {
 		color: #555;
 	}
@@ -377,6 +392,7 @@ footer .logo {
 
 	.participantsContent2 {
 		background: #c8eefa;
+
 	}
 
 	.participantsContent3 .study {
@@ -538,7 +554,7 @@ footer .logo {
 /***** resources page ******/
 
 .resourcesWrapper {
-	text-align: left;
+	text-align: center;
 }
 
 .resourcesWrapper li {
