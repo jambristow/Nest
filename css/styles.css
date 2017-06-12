@@ -753,6 +753,7 @@ footer .logo {
 
 .indexHero1 {
 	background-image: url("../images/indexDad.jpg");
+	background-position: bottom;
 }
 
 .aboutHero1  {
@@ -1053,6 +1054,10 @@ MEDIA QUERIES
 @media only screen and (min-width: 1400px){
 	.hero3  {
 		height: 500px;
+	}
+
+	.indexHero1 {
+		background-position: center;
 	}
 }
 
