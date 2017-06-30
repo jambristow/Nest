@@ -335,123 +335,136 @@ footer .logo {
 	font-size: 1.5em;
 }
 
+/***** home page ******/
+.healthVisitors {
+	background: #63b8dc;
+	width: 100%;
+	padding:5px;
+	margin-top: 20px;
+	transition: all 0.2s ease;
+}
+
+.healthVisitors:hover {
+	background: #50a3cc;
+}
+
 /***** participants page ******/
-	.participantsBar {
-		margin-top: 25px;
-		max-width: 900px;
-		margin-left: auto;
-		margin-right: auto;
-	}
+.participantsBar {
+	margin-top: 25px;
+	max-width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
 
-	.participantsContent{
-		padding: 0px 10%;
-	}
+.participantsContent{
+	padding: 0px 10%;
+}
 
-	.participantsContent i {
-		font-size: 0.9em;
-	}
+.participantsContent i {
+	font-size: 0.9em;
+}
 
-	.participantsContent h4 {
-		margin-top: 40px;
-		text-align: left;
-	}
+.participantsContent h4 {
+	margin-top: 40px;
+	text-align: left;
+}
 
-	.participantsLink {
-		color: #63b8dc;
-		transition: all 0.2s ease;
-	}
+.participantsLink {
+	color: #63b8dc;
+	transition: all 0.2s ease;
+}
 
-	.participantsLink:hover {
-		color: #90DDF4;
-	}
+.participantsLink:hover {
+	color: #90DDF4;
+}
 
-	.participantsContent .subheader {
-		font-size: 1em;
-	}
+.participantsContent .subheader {
+	font-size: 1em;
+}
 
-	.participantsContent .prefix {
-		margin-top: 50px;
-		max-width: 70%;
-	}
+.participantsContent .prefix {
+	margin-top: 50px;
+	max-width: 70%;
+}
 
-	.participantsContent1 {
-		margin-top: 30px;
-		margin-bottom: 50px;
-    	margin-left: auto;
-    	margin-right: auto;
-		max-width: 800px;
-	}
+.participantsContent1 {
+	margin-top: 30px;
+	margin-bottom: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 800px;
+}
 
-	.participantsContent2 p, .participantsContent3 p, .participantsContent3 h4 {
-		color: #555;
-	}
-	
-	.participantsContent2 .study {
-		background: #90ddf4;
-	}
+.participantsContent2 p, .participantsContent3 p, .participantsContent3 h4 {
+	color: #555;
+}
 
-	.participantsContent2 {
-		background: #c8eefa;
+.participantsContent2 .study {
+	background: #90ddf4;
+}
 
-	}
+.participantsContent2 {
+	background: #c8eefa;
 
-	.participantsContent3 .study {
-		background: #b6db8a;
-	}
+}
 
-	.participantsContent3 {
-		background: #def2c5;
-	}
+.participantsContent3 .study {
+	background: #b6db8a;
+}
 
-	.participantsContent .study {
-		padding: 40px 0;
-		height: 150px;
-		text-align: center;
-		width: 140%;
-		margin-left: -20%;
-	}
+.participantsContent3 {
+	background: #def2c5;
+}
 
-	.study h3 {
-		/*line-height: 50px;*/
-		font-size: 2em;
-		color: #fff;
-		margin: 0;
-	}
+.participantsContent .study {
+	padding: 40px 0;
+	height: 150px;
+	text-align: center;
+	width: 140%;
+	margin-left: -20%;
+}
 
-	.study img {
-		height: 100px;
-	}
+.study h3 {
+	/*line-height: 50px;*/
+	font-size: 2em;
+	color: #fff;
+	margin: 0;
+}
 
-	.participantsContent h3 {
-		/*margin-left: -5%;*/
-	}
+.study img {
+	height: 100px;
+}
 
-	.participantsContent .boxBox {
-		text-align: center;
-	}
+.participantsContent h3 {
+	/*margin-left: -5%;*/
+}
 
-	.participantsContent .boxBox p {
-		text-align: left;
-	}
+.participantsContent .boxBox {
+	text-align: center;
+}
 
-	.participantsContent .boxBox ul p {
-		margin-right: 50px;
-		color: #505050;
-	}
+.participantsContent .boxBox p {
+	text-align: left;
+}
 
-	.participantsContent .boxBox .button {
-		float: none;
-		display: inline-block;
-		margin-bottom: 40px;
-	}
+.participantsContent .boxBox ul p {
+	margin-right: 50px;
+	color: #505050;
+}
 
-	.participantsContent .contact p {
-		margin-bottom: 0;
-	}
+.participantsContent .boxBox .button {
+	float: none;
+	display: inline-block;
+	margin-bottom: 40px;
+}
 
-	.participantsContent .contact {
-		padding-bottom: 20px;
-	}
+.participantsContent .contact p {
+	margin-bottom: 0;
+}
+
+.participantsContent .contact {
+	padding-bottom: 20px;
+}
 
 
 /***** team page ******/
@@ -866,7 +879,7 @@ footer .logo {
 }
 
 .survey .wrapper {
-	padding-top: 90px;
+	padding-top: 50px;
 	padding-bottom: 100px;
 }
 
@@ -1028,7 +1041,10 @@ MEDIA QUERIES
 	.boxBoxRight {
 		margin-left: 2.5%;
 	}
-
+	
+	.healthVisitors {
+		border-radius: 10px;
+	}
 }
 
 @media only screen and (min-width: 800px){
