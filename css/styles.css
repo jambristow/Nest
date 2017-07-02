@@ -200,7 +200,7 @@ footer {
 }
 
 footer .logo {
-	height: 60px;
+	height: 70px;
 	padding: 15px;
 }
 
@@ -770,7 +770,7 @@ footer .logo {
 }
 
 .aboutHero1  {
-	background-image: url("../images/baby.jpg");
+	background-image: url("../images/sAsianDad.png");
 	min-height: 400px;
 	background-position: -400px 0;
 }
