@@ -1,3 +1,4 @@
+<?php include('perch/runtime.php'); ?>
 <!doctype html>
 
 <html lang="en">
@@ -84,7 +85,7 @@
 	<div class="blogBackground">
 		<div class="blogMainTitle">
 			<p class="subheader">Our News</p>
-			<h2>Stay up to date with our important work:</h2>
+			<h2><?php perch_content('Blog section title')?></h2>
 		</div>
 		<div class="blogContainer backgroundPink">
 			<div class="blogPost">

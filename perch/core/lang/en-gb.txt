@@ -364,5 +364,11 @@
     "Ascending (A-Z, oldest to newest)": "Ascending (A-Z, oldest to newest)",
     "Descending (Z-A, newest to oldest)": "Descending (Z-A, newest to oldest)",
     "Number of items to display": "Number of items to display",
-    "Leave blank to display all items": "Leave blank to display all items"
+    "Leave blank to display all items": "Leave blank to display all items",
+    "No content yet?": "No content yet?",
+    "Make sure you have added some editable regions into your page, and then visited that page in your browser. Once you have, the regions should show up here.": "Make sure you have added some editable regions into your page, and then visited that page in your browser. Once you have, the regions should show up here.",
+    "Read the getting started guide to find out more": "Read the getting started guide to find out more",
+    "Add an item": "Add an item",
+    "Uploading": "Uploading",
+    "Markdown formatting": "Markdown formatting"
 }
