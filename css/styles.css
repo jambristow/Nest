@@ -349,6 +349,9 @@ footer .logo {
 	padding-top: 20px;
 }
 
+/*.blogPost:nth-child(1n+4) {
+	display: none;
+}*/
 
 .blogPost img {
 	max-width: 90%;
@@ -1012,6 +1015,7 @@ MEDIA QUERIES
 @media only screen and (min-width: 700px){
 	.blogContainer {
 		display: flex;
+		flex-wrap: wrap;
 	}
 
 	.blogPost {

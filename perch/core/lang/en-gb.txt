@@ -370,5 +370,10 @@
     "Read the getting started guide to find out more": "Read the getting started guide to find out more",
     "Add an item": "Add an item",
     "Uploading": "Uploading",
-    "Markdown formatting": "Markdown formatting"
+    "Markdown formatting": "Markdown formatting",
+    "Template tag ID \u2018%s\u2019 contains disallowed characters": "Template tag ID \u2018%s\u2019 contains disallowed characters",
+    "Delete Asset": "Delete Asset",
+    "Are you sure you wish to delete this asset? %sIt may be in use on your site. Deleting will result in the asset no longer being available.%s": "Are you sure you wish to delete this asset? %sIt may be in use on your site. Deleting will result in the asset no longer being available.%s",
+    "Reorder Region": "Reorder Region",
+    "Item orders successfully updated.": "Item orders successfully updated."
 }

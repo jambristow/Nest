@@ -12,7 +12,11 @@
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/styles.css">
 	<link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i|Libre+Baskerville:400,400i,700|Open+Sans:300,300i,400,400i,600,600i,700,700i,800i" rel="stylesheet">
-
+	<style>
+		.blogPost:nth-child(1n+4) {
+			display: none;
+		}
+	</style>
 </head>
 
 <body>
@@ -88,36 +92,7 @@
 			<h2><?php perch_content('Blog section title')?></h2>
 		</div>
 		<div class="blogContainer backgroundPink">
-			<div class="blogPost">
-				<img src="images/baby.jpg">
-				<div class="blogTitleContainer">
-					<h3>Blog post title: The project gets mother fucking going</h3>
-					<p class="date">January 3, 2017</p>
-				</div>
-				<div class="blogTextContainer">
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo...</p>
-				</div>
-			</div>
-			<div class="blogPost">
-				<img src="images/baby.jpg">
-				<div class="blogTitleContainer">
-					<h3>Blog post title: The project gets mother fucking going</h3>
-					<p class="date">January 3, 2017</p>
-				</div>
-				<div class="blogTextContainer">
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ...</p>
-				</div>
-			</div>
-			<div class="blogPost">
-				<img src="images/baby.jpg">
-				<div class="blogTitleContainer">
-					<h3>Blog post title: The project gets mother fucking going</h3>
-					<p class="date">January 3, 2017</p>
-				</div>
-				<div class="blogTextContainer">
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in...</p>
-				</div>
-			</div>
+			<!-- <?php perch_content('Blog posts'); ?> -->
 		</div>	
 	</div>	
 	<div class="overlay noClick">

@@ -1,0 +1,10 @@
+<div class="blogPost">
+  <img src="<perch:content id="image" type="image" label="Image" width="690" height="520" crop="true"/>"/>
+  <div class="blogTitleContainer">
+    <h3><perch:content id="title" type="smarttext" label="Blog title" help="This is the title of your blog post" required="true" title="true"/></h3>
+    <p class="date"><perch:content id="date" type="smarttext" label="Date" help="The date of your blog post, always use the same format!" required="true" /></p>
+  </div>
+  <div class="blogTextContainer">
+    <p><perch:content id="content" type="textarea" label="Blog content" markdown="true" help="Write your blog post here!" required="true" /></p>
+  </div>
+</div>
