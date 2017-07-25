@@ -88,7 +88,6 @@
 			<h2><?php perch_content('Blog section title')?></h2>
 		</div>
 		<div class="blogContainer backgroundPink">
-			<!-- <?php perch_blog_recent_posts(3); ?> -->
 			<?php perch_blog_custom([
 					'sort'=>'postDateTime',
 					'sort-order'=>'DESC',
@@ -97,6 +96,9 @@
 				]);
 			?>
 		</div>	
+		<div style="height: 50px;"></div>
+		<a href="blog.php" class="button4">MORE POSTS</a>
+		<div style="height: 50px;"></div>
 	</div>	
 	<div class="overlay noClick">
 		<div class="exit">

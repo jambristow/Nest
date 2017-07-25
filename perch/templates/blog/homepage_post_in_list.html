@@ -1,5 +1,5 @@
-<perch:before>
-<div class="blogPost"></perch:before>
+
+<div class="blogPost">
     <perch:if exists="image"><img src="<perch:blog id="image" type="image"/>" alt="<perch:blog id="postTitle" />" /></perch:if>
     <div class="blogTitleContainer">
         <h3><a href="<perch:blog id="postURL" />" rel="bookmark" class="entry-title"><perch:blog id="postTitle" /></a></h3>
@@ -8,6 +8,4 @@
     <div class="blogTextContainer">
         <perch:blog id="excerpt" type="textarea" textile="true" />
     </div>
-<perch:after>
 </div>
-</perch:after>

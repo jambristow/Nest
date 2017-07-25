@@ -1,0 +1,42 @@
+TO DO
+
+-change all the titles of each page
+-do the thing with titles near the end of video 17 so the post has a title
+- make images smaller
+- sort out the logo in the footer
+- make the posts page
+
+
+
+
+
+<div class="blogPost">
+	<img src="images/baby.jpg">
+	<div class="blogTitleContainer">
+		<h3>Blog post title: The project gets mother fucking going</h3>
+		<p class="date">January 3, 2017</p>
+	</div>
+	<div class="blogTextContainer">
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo...</p>
+	</div>
+</div>
+
+
+
+
+<div class="blogPost">
+  <img src="<perch:content id="image" type="image" label="Image" width="690" height="520" crop="true"/>"/>
+  <div class="blogTitleContainer">
+    <h3><perch:content id="title" type="smarttext" label="Blog title" help="This is the title of your blog post" required="true" title="true"/></h3>
+    <p class="date"><perch:content id="date" type="smarttext" label="Date" help="The date of your blog post, always use the same format!" required="true" /></p>
+  </div>
+  <div class="blogTextContainer">
+    <p><perch:content id="content" type="textarea" label="Blog content" markdown="true" help="Write your blog post here!" required="true" /></p>
+  </div>
+</div>
+
+
+<img src="<perch:content id="image" type="image" label="Image" width="690" height="520" crop="true"/>"/>
+<p class="subheader"><perch:content id="date" type="smarttext" label="Date" help="The date of your blog post, always use the same format!" required="true" /></p>
+<h2><perch:content id="title" type="smarttext" label="Blog title" help="This is the title of your blog post" required="true" title="true"/></h2>
+<p><perch:content id="content" type="textarea" label="Blog content" markdown="true" help="Write your blog post here!" required="true" /></p>

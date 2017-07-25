@@ -6,19 +6,22 @@
 
 	<h2>
         <a href="<perch:blog id="postURL" type="hidden" />" rel="bookmark" class="p-name">
-            <perch:blog id="postTitle" type="text" label="Title" required="true" size="xl autowidth" order="1" />
+            <perch:blog id="postTitle" type="text" label="Title" required="true" size="xl autowidth" help="Try to keep the title less than about 15 words to not throw off the balance of the blog section" order="1" />
         </a>
     </h2>
 
    
     <p class="description e-content">
-    	<perch:blog id="postDescHTML" type="textarea" label="Post" order="2" editor="markitup" markdown="true" size="xxl autowidth" required="true" />
+    	<perch:blog id="postDescHTML" type="textarea" label="Post" order="2" editor="markitup" markdown="true" size="xxl autowidth" required="true" help="Write your blog post here. Make sure to click save at the bottom and change the status from 'draft' to 'published'. Also don't forget to do the excerpt!"/>
     </p>
 
     <perch:if exists="image">
-        <img src="<perch:blog id="image" type="image" width="320" height="240" crop="true" label="Image" order="1" />" alt="<perch:blog id="postTitle" />" />
+        <img src="<perch:blog id="image" type="image" label="Image" order="1" />" alt="<perch:blog id="postTitle" />" />
     </perch:if>
+
 </article>
 
-<perch:blog id="excerpt" type="textarea" label="Excerpt" markdown="true" order="3" suppress="true" size="s" />
+<perch:blog id="excerpt" type="textarea" label="Excerpt" markdown="true" order="3" suppress="true" required="true" maxlength="250" help="Please copy paste your whole blog post here to create the excerpt for the home/blog pages. It will get cut off at the correct length automatically.  Where it gets cut off, please delete the last word and write ellipses!" size="s" />
+
 <perch:blog id="image" type="image" width="50" height="50" crop="true" suppress="true" />
+

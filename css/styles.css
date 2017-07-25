@@ -123,6 +123,25 @@ li a:hover {
     width: 100px;
 }
 
+.button4 {
+	padding: 0.7em 1em;
+	color: white;
+	background-color: #90DDF4;
+	/*border: solid;*/
+	/*border-color: #fff;*/
+	border-radius: 35px;
+	margin: 50px;
+	margin-bottom: 100px;
+    transition: all 0.5s ease;
+	letter-spacing: 0.2px;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    clear: both;
+    width: 100px;
+}
+
 .button3 {
 	color: lightblue;
 	background-color: transparent;
@@ -148,6 +167,10 @@ li a:hover {
 
 .button3:hover {
 	color: tomato;
+}
+
+.button4:hover {
+	background-color: #ffb492;
 }
 
 .noClick {
@@ -835,8 +858,17 @@ footer .logo {
 	background: #595a5b;
 }
 
-h2 a {
-	color: #45484d;
+h2 a, h3 a {
+	color: #595a5b;
+	transition: all 0.3s ease;
+}
+
+h3 a:hover {
+	color: #90DDF4;
+}
+
+.h-entry img {
+	max-width: 96%;
 }
 
 .aboutHero1  {
@@ -1021,6 +1053,7 @@ MEDIA QUERIES
 @media only screen and (min-width: 700px){
 	.blogContainer {
 		display: flex;
+		flex-wrap: wrap;
 	}
 
 	.blogPost {

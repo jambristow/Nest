@@ -24,7 +24,7 @@
 			<img class="logo" src="images/nestLogoWhite.svg">
 			<div class="navigation">
 				<ul>
-					<li class="selected"><a href="index.php">Home</a></li>
+					<li><a href="index.php">Home</a></li>
 					<li><a href="about.html">About</a></li>
 					<li><a href="participants.html">Participate</a></li>
 					<li><a href="team.html">Team</a></li>
@@ -38,7 +38,7 @@
 			<p class="emailAddress"><a href="mailto:sharin.baldwin@kcl.ac.uk">sharin.baldwin@kcl.ac.uk</a></p>
 			<div>
 				<ul>
-					<li class="selected"><a href="index.php">Home</a></li>
+					<li><a href="index.php">Home</a></li>
 					<li><a href="about.html">About</a></li>
 					<li><a href="participants.html">Participate</a></li>
 					<li><a href="team.html">Team</a></li>
