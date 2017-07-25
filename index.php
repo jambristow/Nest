@@ -88,36 +88,7 @@
 			<h2><?php perch_content('Blog section title')?></h2>
 		</div>
 		<div class="blogContainer backgroundPink">
-			<div class="blogPost">
-				<img src="images/baby.jpg">
-				<div class="blogTitleContainer">
-					<h3>Blog post title: The project gets mother fucking going</h3>
-					<p class="date">January 3, 2017</p>
-				</div>
-				<div class="blogTextContainer">
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo...</p>
-				</div>
-			</div>
-			<div class="blogPost">
-				<img src="images/baby.jpg">
-				<div class="blogTitleContainer">
-					<h3>Blog post title: The project gets mother fucking going</h3>
-					<p class="date">January 3, 2017</p>
-				</div>
-				<div class="blogTextContainer">
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ...</p>
-				</div>
-			</div>
-			<div class="blogPost">
-				<img src="images/baby.jpg">
-				<div class="blogTitleContainer">
-					<h3>Blog post title: The project gets mother fucking going</h3>
-					<p class="date">January 3, 2017</p>
-				</div>
-				<div class="blogTextContainer">
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in...</p>
-				</div>
-			</div>
+			<?php perch_blog_recent_posts(3); ?>
 		</div>	
 	</div>	
 	<div class="overlay noClick">
