@@ -54,7 +54,7 @@ $post_slug = perch_get('s');
 
 	<div class="content">
 		<div class="clearfix">
-			<div class="hero1 hero indexHero1">
+			<div class="hero1 hero">
 				<div class=textContainer>
 					<h1><span class="pink">BLOG POST</h1>
 					<h2></h2>
@@ -112,13 +112,3 @@ $post_slug = perch_get('s');
 
 
 
-<!-- <div class="blogPost">
-	<img src="images/baby.jpg">
-	<div class="blogTitleContainer">
-		<h3>Blog post title: The project gets mother fucking going</h3>
-		<p class="date">January 3, 2017</p>
-	</div>
-	<div class="blogTextContainer">
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo...</p>
-	</div>
-</div> -->
