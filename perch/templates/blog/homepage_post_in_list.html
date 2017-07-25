@@ -1,0 +1,13 @@
+<perch:before>
+<div class="blogPost"></perch:before>
+    <perch:if exists="image"><img src="<perch:blog id="image" type="image"/>" alt="<perch:blog id="postTitle" />" /></perch:if>
+    <div class="blogTitleContainer">
+        <h3><a href="<perch:blog id="postURL" />" rel="bookmark" class="entry-title"><perch:blog id="postTitle" /></a></h3>
+        <p class="entry-published date"><perch:blog id="postDateTime" format="%d %B %Y" /></p>
+    </div>
+    <div class="blogTextContainer">
+        <perch:blog id="excerpt" type="textarea" textile="true" />
+    </div>
+<perch:after>
+</div>
+</perch:after>

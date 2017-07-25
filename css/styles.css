@@ -207,7 +207,7 @@ footer .logo {
 }
 
 .absoluteNav .logo {
-	height: 3em;
+	height: 4em;
 	padding: 0.5em 1em;
 	margin-left: 50px;
 }
@@ -828,6 +828,15 @@ footer .logo {
 .indexHero1 {
 	background-image: url("../images/indexDad.jpg");
 	background-position: bottom;
+}
+
+.postHero {
+	height: 90px;
+	background: #595a5b;
+}
+
+h2 a {
+	color: #45484d;
 }
 
 .aboutHero1  {

@@ -1,6 +1,6 @@
 <?php include('perch/runtime.php'); ?>
 <?php
-$post_slug = perch_get('s');
+	$post_slug = perch_get('s');
 ?>
 <!doctype html>
 
@@ -15,7 +15,6 @@ $post_slug = perch_get('s');
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/styles.css">
 	<link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i|Libre+Baskerville:400,400i,700|Open+Sans:300,300i,400,400i,600,600i,700,700i,800i" rel="stylesheet">
-
 </head>
 
 
@@ -54,22 +53,12 @@ $post_slug = perch_get('s');
 
 	<div class="content">
 		<div class="clearfix">
-			<div class="hero1 hero">
-				<div class=textContainer>
-					<h1><span class="pink">BLOG POST</h1>
-					<h2></h2>
-				</div>
+			<div class="hero postHero">
 			</div>
 		</div>
 		<div class="firstBar clearfix infoBar">
 			<div class="firstBarText">
-				<p class="subheader">Our Aim</p>
-				<h2>Butt butt butt butt butt butt butt butt butt butt butt butt butt butt</h2>
-				<p>We would like to learn more about new fathers' early experiences of becoming a parent and how this may impact on their mental health and wellbeing. Our findings will inform how health professionals who are in contact with new parents during and after the birth of their baby could better support new fathers.</p>
-				<h3>Why is fathers’ mental health and wellbeing important?</h3>
-				<p>If fathers are well supported they can better support their partners and contribute positively to the whole family. Fathers who are affectionate, supportive, and involved can improve their child’s development. Children who have good relationships with their fathers as they grow up tend to do better at school, are better at understanding others’ needs, better at making decisions and dealing with different situations. They also seem to be able to cope better with stress, and develop better social skills, have fewer behavioural problems and lower rates of criminality and substance misuse.</p>
-				<h3>The challenges of fatherhood</h3>
-				<p>Becoming a father can be a wonderful time. However it can also be stressful and challenging. Studies have shown that many fathers experience poor mental health and wellbeing around the time of their child’s birth, which has a negative impact on their own health and can affect the health and well-being of their partner and child.</p>
+				<?php perch_blog_post($post_slug); ?>
 			</div>
 			<div class="survey">
 				<div class="healthVisitors">

@@ -1,0 +1,24 @@
+<article class="h-entry">
+
+    <p class="subheader" datetime="<perch:blog id="postDateTime" type="date" label="Date" time="true" format="Y-m-d H:i:s" divider-before="Publishing" />">
+        <perch:blog id="postDateTime" type="date" time="true" format="%d %B %Y" /> 
+    </p>
+
+	<h2>
+        <a href="<perch:blog id="postURL" type="hidden" />" rel="bookmark" class="p-name">
+            <perch:blog id="postTitle" type="text" label="Title" required="true" size="xl autowidth" order="1" />
+        </a>
+    </h2>
+
+   
+    <p class="description e-content">
+    	<perch:blog id="postDescHTML" type="textarea" label="Post" order="2" editor="markitup" markdown="true" size="xxl autowidth" required="true" />
+    </p>
+
+    <perch:if exists="image">
+        <img src="<perch:blog id="image" type="image" width="320" height="240" crop="true" label="Image" order="1" />" alt="<perch:blog id="postTitle" />" />
+    </perch:if>
+</article>
+
+<perch:blog id="excerpt" type="textarea" label="Excerpt" markdown="true" order="3" suppress="true" size="s" />
+<perch:blog id="image" type="image" width="50" height="50" crop="true" suppress="true" />

@@ -88,7 +88,14 @@
 			<h2><?php perch_content('Blog section title')?></h2>
 		</div>
 		<div class="blogContainer backgroundPink">
-			<?php perch_blog_recent_posts(3); ?>
+			<!-- <?php perch_blog_recent_posts(3); ?> -->
+			<?php perch_blog_custom([
+					'sort'=>'postDateTime',
+					'sort-order'=>'DESC',
+					'template'=>'blog/homepage_post_in_list.html',
+					'count'=>'3'
+				]);
+			?>
 		</div>	
 	</div>	
 	<div class="overlay noClick">
