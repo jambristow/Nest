@@ -7,7 +7,7 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Fathers Mental Health</title>
+	<title>Blog | <?php perch_blog_post_field($post_slug, 'postTitle'); ?></title>
 	<meta name="description" content="Website for King's College father's mental health study Nest">
 	<meta name="author" content="James Bristow">
 	<meta name="viewport" content="width=device-width, initial-scale=0.9">
