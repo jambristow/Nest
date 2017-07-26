@@ -343,7 +343,7 @@ footer .logo {
 
 /****** blog posts *****/
 .blogBackground {
-	background: #f2f2f2;
+	background: #eee;
 }
 
 .blogContainer {
@@ -356,7 +356,7 @@ footer .logo {
 
 .blogMainTitle {
 	padding-left: 60px;
-	padding-top: 60px;
+	padding-top: 45px;
 }
 
 .blogMainTitle h2 {
@@ -366,7 +366,7 @@ footer .logo {
 }
 
 .blogPost {
-	/*border: 1px solid #d0cfcf;*/
+	border: 1px solid #d0cfcf;
 	border-radius: 6px;
 	margin: 15px 1%;
 	padding-top: 20px;
@@ -872,7 +872,7 @@ h3 a:hover {
 }
 
 .aboutHero1  {
-	background-image: url("../images/sAsianDad.png");
+	background-image: url("../images/sAsianDad.jpg");
 	min-height: 400px;
 	background-position: -400px 0;
 }
@@ -893,11 +893,11 @@ h3 a:hover {
 }
 
 .hero2  {
-	background-image: url("../images/dad2.png");
+	background-image: url("../images/dad2.jpg");
 }
 
 .hero3  {
-	background-image: url("../images/dad3.png");
+	background-image: url("../images/dad3.jpg");
 }
 
 .hero h1, .hero h2 {
@@ -1057,7 +1057,7 @@ MEDIA QUERIES
 	}
 
 	.blogPost {
-		border: none;
+		/*border: none;*/
 		flex: 0 0 31%;
 	}
 

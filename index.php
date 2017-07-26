@@ -97,7 +97,7 @@
 			?>
 		</div>	
 		<div style="height: 50px;"></div>
-		<a href="blog.php" class="button4">MORE POSTS</a>
+	    <a href="blog.php" class="button4">MORE POSTS</a>
 		<div style="height: 50px;"></div>
 	</div>	
 	<div class="overlay noClick">
