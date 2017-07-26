@@ -59,6 +59,9 @@
 		<div class="firstBar clearfix infoBar">
 			<div class="firstBarText">
 				<?php perch_blog_post($post_slug); ?>
+				<div style="height: 50px;"></div>
+		    	<a href="blog.php" class="button4" style="margin:0;">MORE POSTS</a>
+				<!-- <div style="height: 50px;"></div> -->
 			</div>
 			<div class="survey">
 				<div class="healthVisitors">
@@ -91,6 +94,8 @@
 	</div>
 	<footer class="main-footer">
 		<img class="logo logo1" src="images/nhsLogo2.png">
+		<img class="logo logo2" src="images/nhsLogo3.png">
+		<button class="menuButton menuButton2">Menu</button>
 	</footer>
 	
 	<script src="js/scripts.js"></script>

@@ -1,10 +1,9 @@
 TO DO
 
 -change all the titles of each page
--do the thing with titles near the end of video 17 so the post has a title
-- make images smaller
+- do the thing with titles near the end of video 17 so the post has a title
 - sort out the logo in the footer
-- make the posts page
+
 
 
 

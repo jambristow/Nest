@@ -4,7 +4,7 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Blog | Fathers Mental Health</title>
+	<title>NEST | Blog</title>
 	<meta name="description" content="Website for King's College father's mental health study Nest">
 	<meta name="author" content="James Bristow">
 	<meta name="viewport" content="width=device-width, initial-scale=0.9">
@@ -84,6 +84,8 @@
 	</div>
 	<footer class="main-footer">
 		<img class="logo logo1" src="images/nhsLogo2.png">
+		<img class="logo logo2" src="images/nhsLogo3.png">
+		<button class="menuButton menuButton2">Menu</button>
 	</footer>
 	
 	<script src="js/scripts.js"></script>

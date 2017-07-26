@@ -223,10 +223,14 @@ footer {
 	float: left;
 }
 
+.logo1 {
+	display: none;
+}
+
 footer .logo {
-	max-height: 65px;
+	max-height: 70px;
 	padding: 15px;
-	max-width: 80%;
+	max-width: 70%;
 }
 
 .absoluteNav .logo {
@@ -259,6 +263,11 @@ footer .logo {
 .menuButton:hover {
 	background:rgba(208,207,207,.1);
 	cursor:pointer
+}
+
+.menuButton2 {
+	top:auto;
+	margin-top: 2rem;
 }
 
 .youtube {
@@ -774,7 +783,7 @@ footer .logo {
 
 .modalNav {
     background-color: #fff;
-    padding: 4em;
+    padding: 3em;
     margin: 5em;
     -webkit-transition: margin 0.4s ease-in;
     -moz-transition: margin 0.4s ease-in;
@@ -869,6 +878,13 @@ h3 a:hover {
 
 .h-entry img {
 	max-width: 96%;
+}
+
+.mobileLogo {
+	position: absolute;
+    height: 4em;
+    margin-left: 15px;
+    margin-top: 8px;
 }
 
 .aboutHero1  {
@@ -1049,6 +1065,15 @@ MEDIA QUERIES
 	
 }
 
+@media only screen and (min-width: 600px){
+	.logo1 {
+		display: inline;
+	}
+
+	.logo2 {
+		display: none;
+	}
+}
 
 @media only screen and (min-width: 700px){
 	.blogContainer {
@@ -1064,7 +1089,7 @@ MEDIA QUERIES
 	.navigation {
 		display: inline;
 	}
-	.menuButton, .emailMobile {
+	.menuButton, .emailMobile, .mobileLogo {
 		display: none;
 	}
 

@@ -12,6 +12,7 @@ var fixNav = document.querySelector('.fixedNav');
 
 // Get the button that opens the modal
 var menuButton = document.querySelector(".menuButton");
+var menuButton2 = document.querySelector(".menuButton2");
 
 // Get the <span> element that closes the modal
 var exit = document.querySelector(".exit");
@@ -32,7 +33,7 @@ function fadeIn (){
 	overlay.style.overflow = "scroll";
 	
 	overlay.style.opacity = "1";
-	modalNav.style.margin = "4em";
+	modalNav.style.margin = "3em";
 
 	overlay.classList.remove('noClick');
 }
@@ -56,6 +57,10 @@ document.addEventListener('scroll', function () {
 
 // When the user clicks on the button, open the modal 
 menuButton.onclick = function() {
+	fadeIn();
+}
+
+menuButton2.onclick = function() {
 	fadeIn();
 }
 
